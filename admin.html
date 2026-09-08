@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+</head>
+<body style="font-family: Arial; text-align:center;">
+
+<h2>Admin Login</h2>
+
+<input type="password" id="pass" placeholder="Enter Password">
+<button onclick="login()">Enter</button>
+
+<div id="panel" style="display:none; margin-top:20px;">
+  <h3>Edit Activity</h3>
+
+  <input id="name" placeholder="Activity Name"><br><br>
+  <input id="place" placeholder="Place"><br><br>
+  <input id="date" placeholder="Date"><br><br>
+  <input id="time" placeholder="Time"><br><br>
+
+  <button onclick="save()">Save</button>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
